@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="polina_sliusarchuk">Polina Sliusarchuk!</string>
+    <string name="yellow_star">yellow_star</string>
+    <string name="bio" > I am an Android Developer (JAVA). I can make project from scratch, as well as from your design files. I work with Android components, integrate with different open sours API (Facebook, Twitter, Google, Instagam, Youtube, ets), use REST API, integrate with Google services (Maps, Places), use database SQL, SQLite as well as ORM (Suger, DBFlow), use Firebase (Google Cloud Messaging, Push Notifications, Authentication, Database, Analytics), use Android SDK ( Camera, Contacts, Media, GPS, Battery, Notifications), familiar with and use in work libraries for networking and images Retrofit, Picasso, Volley, OkHttp, Fresco, Glide, for annotation and code generation Parceler, ButterKnife, for testing Espresso, for dependency injection Dagger 2 and other 3-part libraries for animation, visual affects, ui improve. You can find my code example at GitHub together with my projects.
+    </string>
+    <string name="what_is_nick">What is your nick name?</string>
+    <string name="text_button">Done</string>
+</resources>

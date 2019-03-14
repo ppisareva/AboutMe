@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/polina_sliusarchuk"
+            android:id="@+id/name_text"
+            android:fontFamily="@font/annie_use_your_telescope"
+            style="@style/NameText"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/star_image"
+            android:layout_marginTop="@dimen/layout_margin_small"
+            android:contentDescription="@string/yellow_star"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textPersonName"
+            android:ems="10"
+            android:id="@+id/nick_editText"
+            style="@style/NameText"
+            android:hint="@string/what_is_nick"
+            android:autofillHints=""/>
+    <Button
+            android:text="@string/text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nick_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/text_small_padding"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:textSize="@dimen/button_text_size"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nick_edit"
+            style="@style/NameText"
+            android:visibility="gone"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/NameText">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/about_text"
+                  android:text="@string/bio"
+                  android:paddingEnd="@dimen/pudding_bio"
+                  android:paddingStart="@dimen/pudding_bio"
+                  android:lineSpacingMultiplier="1.2"/>
+    </ScrollView>
+
+</LinearLayout>

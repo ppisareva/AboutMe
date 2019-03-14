@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="layout_margin_small">8dp</dimen>
+    <dimen name="text_small_padding">3dp</dimen>
+    <dimen name="pudding_bio">16dp</dimen>
+    <dimen name="button_text_size">19sp</dimen>
+</resources>
